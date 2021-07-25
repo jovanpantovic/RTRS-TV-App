@@ -1,0 +1,302 @@
+.navBar {
+    margin-top: 10px;
+    background-color: rgba(245, 245, 245, 0.486);
+}
+
+.Logo {
+    width: 120px;
+    height: 40px;
+    float: left;
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-top: 4px;
+}
+
+.navList {
+    overflow: hidden;
+}
+
+.navEl {
+    float: left;
+    margin-left: 50px;
+    color: rgba(128, 128, 128, 0.842);
+}
+
+.navElTV {
+    float: left;
+    margin-left: 50px;
+    color: rgba(128, 128, 128, 0.842);
+}
+
+.navEl2 {
+    float: left;
+    margin-left: 50px;
+    color: white;
+}
+
+.navElU {
+    float: left;
+    margin-left: 50px;
+    color: white;
+}
+
+.navBar2 {
+    margin-top: -5px;
+    margin-bottom: 25px;
+    background-color: lightgray;
+}
+
+.switch input {
+    position: absolute;
+    opacity: 0;
+}
+  
+  .switch {
+    display: inline-block;
+    font-size: 20px; 
+    height: 1em;
+    width: 2em;
+    background: #BDB9A6;
+    border-radius: 1em;
+    float: right;
+    margin-top: 20px;
+    margin-right: 35px;
+}
+  
+  .switch div {
+    height: 1em;
+    width: 1em;
+    border-radius: 1em;
+    background: #FFF;
+    box-shadow: 0 0.1em 0.3em rgba(0,0,0,0.3);
+    -webkit-transition: all 300ms;
+       -moz-transition: all 300ms;
+            transition: all 300ms;
+}
+  
+  .switch input:checked + div {
+    -webkit-transform: translate3d(100%, 0, 0);
+       -moz-transform: translate3d(100%, 0, 0);
+            transform: translate3d(100%, 0, 0);
+            background-color: yellow;
+}
+
+.Letters {
+    margin-top: -15px;
+    margin-bottom: 25px;
+    background-image: linear-gradient(to right, white, rgba(211, 211, 211, 0.527));
+}
+
+.letter {
+    color: white; 
+    margin-top: -26px;
+    margin-left: 12.5px;
+}
+
+.circle {
+    background-color: lightgray;
+    border: 3px solid #FFF;
+    border-radius: 18px;
+    box-shadow: 0 0 2px #888;
+    height: 30px;
+    width: 30px;
+}
+
+.ButtonLetterA {
+    margin-left: 40px;
+    float: left;
+    margin-top: 6px;
+}
+
+.ButtonLetter {
+float: left;
+margin-left: 26px;
+margin-top: 6px;
+}
+
+.titleA {
+    margin-left: 40px;
+}
+
+.allA {
+    border-top: 2px solid lightgray;
+    border-bottom: 2px solid lightgray;
+    border-right: 2px solid lightgray;
+    float: left;
+    margin-left: 40px;
+    width: 730px;
+    height: 360px;
+}
+
+.current1 {
+    background-color: rgba(0, 140, 255, 0.924);
+    width: 715px;
+    height: 130px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    border: 2px solid lightgray;
+}
+
+.current2 {
+    background-color: rgba(0, 140, 255, 0.924);
+    width: 715px;
+    height: 130px;
+    border: 2px solid lightgray;
+}
+
+.programImage {
+    float: left;
+    height: 130px;
+    width: 260px;
+}
+
+.programTitle {
+    color: white;
+    float: left;
+    margin-left: 15px;
+}
+
+.buttonDays {
+    margin-top: 95px;
+    margin-left: -138px;
+    float: left;
+}
+
+.buttonDays2 {
+    margin-top: 95px;
+    margin-left: -68px;
+    float: left;
+}
+
+.Day {
+    float: left;
+    margin-right: 5px;
+    height: 30px;
+    width: 50px;
+    background-color: lightgray;
+}
+
+.DaySelect {
+    float: left;
+    margin-right: 5px;
+    height: 30px;
+    width: 50px;
+    background-color: rgba(0, 81, 255, 0.479);
+}
+
+.borderRed {
+    border-bottom: 2px solid red;
+    width: 60px;
+    margin-bottom: 5px;
+    margin-left: 327px;
+}
+
+.borderBlue {
+    border-bottom: 2px solid blue;
+    width: 60px;
+    margin-top: -25px;
+    margin-left: 373px;
+    margin-bottom: 30px;
+}
+
+.allБ {
+    border-top: 2px solid lightgray;
+    border-bottom: 2px solid lightgray;
+    border-right: 2px solid lightgray;
+    margin-left: 40px;
+    width: 730px;
+    height: 360px;
+    
+}
+
+.current12 {
+    background-color: white;
+    width: 715px;
+    height: 130px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    border: 2px solid lightgray;
+}
+
+.current22 {
+    background-color: white;
+    width: 715px;
+    height: 130px;
+    border: 2px solid lightgray;
+}
+
+.programTitle2 {
+    color: rgba(128, 128, 128, 0.698);
+    margin-left: 15px;
+    float: left;
+}
+
+.all2 {
+    margin-top: 400px;
+}
+
+.Left {
+    float: left;
+}
+
+.Right {
+    float: left;
+    margin-top: 91px;
+    margin-left: -355px;
+}
+
+.RightTitle {
+    float: left;
+    margin-left: 30px;
+    margin-top: 60px;
+    background-image: linear-gradient(to right, white, rgba(211, 211, 211, 0.527));
+    width: 325px;
+}
+
+.smallImageDiv {
+    margin-left: 30px;
+    float: left;
+}
+
+.smallImage {
+    margin-top: 105px;
+    height: 163px;
+    width: 325px;
+    border-bottom: 10px solid rgba(128, 128, 128, 0.068);
+    float: left;
+    margin-bottom: 20px;
+}
+
+.Guest {
+    color: rgba(0, 0, 0, 0.712);
+    margin-left: 67px;
+}
+
+.guestDesc {
+    color: rgba(0, 0, 0, 0.712);
+    margin-left: 56px;
+    margin-top: -10px;
+}
+
+.Guest2 {
+    color: rgba(0, 0, 0, 0.712);
+    margin-left: 95px;
+}
+
+.guestDesc2 {
+    color: rgba(0, 0, 0, 0.712);
+    margin-left: 30px;
+    margin-top: -10px;
+}
+
+.titleRightBottom {
+    float: right;
+    margin-top: 90px;
+    background-color: rgba(128, 128, 128, 0.609);
+    width: 325px;
+}
+
+.titleRB {
+    color: white;
+    margin-left: 95px;
+}

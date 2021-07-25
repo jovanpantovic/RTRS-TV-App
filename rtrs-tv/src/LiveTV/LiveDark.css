@@ -1,0 +1,205 @@
+.bigImage {
+    width: 1300px;
+    height: 700px;
+    margin-right:20px;
+    margin-left: 35px;
+}
+
+.bigAndInsideImages {
+    position: relative;
+    float: left;
+}
+
+.insideSmallImage {
+    width: 200px;
+    height: 100px;
+}
+
+.insideSmall {
+    width: 200px;
+    height: 165px;
+    margin-right: 17px;
+    border: 1px solid white;
+    background-color: white;
+}
+
+.insideSmall2 {
+    width: 200px;
+    height: 180px;
+    margin-right: 17px;
+    border: 1px solid white;
+}
+
+.insideSmallDiv {
+    position: absolute;
+    top: 500px;
+    margin-left: 60px;
+    width: 1249px;
+    display: flex; 
+    overflow-x: hidden;
+}
+
+.Small {
+    width: 125px;
+    float: left;
+    margin-right: 17px;
+}
+
+.Logo {
+    width: 120px;
+    height: 40px;
+    float: left;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.navList {
+    overflow: hidden;
+}
+
+.navEl {
+    float: left;
+    margin-left: 50px;
+    color: white;
+}
+
+.navElTV {
+    float: left;
+    margin-left: 50px;
+    color: white;
+}
+
+.navEl2 {
+    float: left;
+    margin-left: 50px;
+    color: white;
+}
+
+.navElU {
+    float: left;
+    margin-left: 50px;
+    color: white;
+}
+
+.navBar2 {
+    margin-top: -5px;
+    margin-bottom: 25px;
+    background-color: black;
+}
+
+.scroll {
+    overflow-y: scroll;
+    height: 665px;
+    float: left;
+    border-bottom: 2px solid lightgray;
+    border-top: 2px solid lightgray;
+}
+
+.smallDiv {
+    height: 73px;
+    width: 300px;
+    border-bottom: 2px solid lightgray;
+    border-left: 2px solid lightgray;
+    margin-bottom: -20px;
+}
+
+.smallText {
+float: left;
+color: white;
+}
+
+.Title {
+    color: grey;
+}
+
+.switch input {
+    position: absolute;
+    opacity: 0;
+  }
+  
+  .switch {
+    display: inline-block;
+    font-size: 20px; 
+    height: 1em;
+    width: 2em;
+    background: black;
+    border-radius: 1em;
+    float: right;
+    margin-top: 20px;
+    margin-right: 35px;
+  }
+  
+  .switch div {
+    height: 1em;
+    width: 1em;
+    border-radius: 1em;
+    background: yellow;
+    box-shadow: 0 0.1em 0.3em rgba(0,0,0,0.3);
+    -webkit-transition: all 300ms;
+       -moz-transition: all 300ms;
+            transition: all 300ms;
+  }
+  
+  .switch input:checked + div {
+    -webkit-transform: translate3d(100%, 0, 0);
+       -moz-transform: translate3d(100%, 0, 0);
+            transform: translate3d(100%, 0, 0);
+            background-color: white;
+  } 
+
+  .Left {
+    background-color: rgba(0, 0, 0, 0.781);
+    color: white;
+    float: left;
+    margin-top: -1px;
+    width: 150px;
+    margin-bottom: -1px;
+    height: 23px;
+}
+
+.Right {
+    background-color: rgba(0, 0, 0, 0.883);
+    color: white;
+    float: right;
+    margin-top: -1px;
+    margin-bottom: -1px;
+    height: 23px;
+}
+
+.InsideTitleRed {
+    border-bottom: 3px solid red;
+    width: 140px;
+    margin-left: 8px;
+}
+
+.InsideTitle {
+    border-bottom: 3px solid gray;
+    width: 180px;
+    margin-left: 8px;
+}
+
+.Clock {
+    width: 20px;
+    height: 17px;
+    margin-right: 7px;
+    margin-top: 3px;
+    margin-left: 4px;
+}
+
+.navBar {
+    margin-top: 10px;
+}
+
+.borderRed {
+    border-bottom: 2px solid red;
+    width: 60px;
+    margin-bottom: 5px;
+    margin-left: 327px;
+}
+
+.borderBlue {
+    border-bottom: 2px solid blue;
+    width: 60px;
+    margin-top: -25px;
+    margin-left: 155px;
+}
